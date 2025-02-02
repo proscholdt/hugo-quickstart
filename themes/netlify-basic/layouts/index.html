@@ -29,22 +29,12 @@
   </div>
   
   <!-- Assistente Virtual -->
-  <div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; width: 350px; height: 450px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); z-index: 1000;">
+  <div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; width: 350px; height: 500px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); z-index: 1000;">
     <iframe
         src="https://www.chatbase.co/chatbot-iframe/QCml7jTqWaTRAkW0lLnhn?open=true&hide_branding=true"
         style="width: 100%; height: 100%; border: none;"
     ></iframe>
   </div>
-  
-  <style>
-    a[href*="chatbase.co"] {
-      display: none !important;
-    }
-    #chatbot-container iframe {
-      height: calc(100% - 20px) !important;
-    }
-  </style>
-  
+
 </div>
 {{ end }}
-
